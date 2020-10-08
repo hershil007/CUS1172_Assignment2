@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>To-Do List</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="JavaScript/Task_list.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/index_style.css">
+</head>
+<body>
+    <h1 class="text-center">To-Do List</h1>
+    <p class="text-center">Create tasks, mark as completed, and remove when finished.</p>
+    <div id="todo-list" class="container">
+        <form id="task-toggle" class="text-center">
+            <ol id="task-list">
+            </ol>
+            <input id="submit-changes" type="submit" value="Submit Changes">
+        </form>
+    </div>
+
+    <div id="task-form">
+        <form id="create-task" class="text-center">
+            <input id="task" placeholder="Enter a New Task Here" type="text">
+            <label for="priority">Priority</label>
+            <select id="priority" size="1">
+                <option>1</option>
+            </select>
+            <input id="submit" type="submit" value="Create New Task">
+        </form>
+    </div>
+
+
+</body>
+</html>

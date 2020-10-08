@@ -1,0 +1,130 @@
+body
+{
+    background-color: #002752;
+}
+
+h1
+{
+    color: #f1f1f1;
+}
+
+p
+{
+    color: #f1f1f1;
+}
+
+label
+{
+    color: #f1f1f1;
+}
+
+span
+{
+    color: #f1f1f1;
+    font-weight: 300;
+    font-size: 1.35em;
+}
+
+li
+{
+    color: #f1f1f1;
+}
+
+#todo-list
+{
+    padding-bottom: 50px;
+}
+
+label[for="complete"]
+{
+    position: relative;
+    font-weight: 300;
+    font-size: 1.35em;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    color: #1c7430;
+}
+
+label[for="incomplete"]
+{
+    position: relative;
+    font-weight: 300;
+    font-size: 1.35em;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    color: #8fd19e;
+}
+
+label[for="remove"]
+{
+    position: relative;
+    font-weight: 300;
+    font-size: 1.35em;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+    color: #721c24;
+}
+
+label:hover
+{
+    color: #ffffff;
+}
+
+input[type="radio"]
+{
+    background-color: #181818;
+}
+
+input[type=text]
+{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #181818;
+    border:1px solid #03c2fc;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+#todo-list
+{
+    padding-top: 150px;
+}
+
+input[type=submit]
+{
+    font-family: Verdana;
+    font-size: 20px;
+    background-color: #181818;
+    border:1px solid #03c2fc;
+    color: white;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover
+{
+    background-color: #0088ff;
+    color:#000000;
+}
+
+#priority
+{
+    width: 150px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 1;
+    border:1px solid #03c2fc;
+    border-radius: 5px;
+    height: 34px;
+    background-color: #181818;
+    color: white;
+    transition-duration: 0.4s;
+    -webkit-appearance: none;
+    background-position-x: 244px;
+}
+
+
